@@ -1,0 +1,25 @@
+{
+  "name": "sbs-online-restapi",
+  "version": "1.0.0",
+  "description": "rest api crud using nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anuj9939/sbs-online-rest-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "crud",
+    "rest",
+    "api"
+  ],
+  "author": "Anuj Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anuj9939/sbs-online-rest-api/issues"
+  },
+  "homepage": "https://github.com/anuj9939/sbs-online-rest-api#readme"
+}
