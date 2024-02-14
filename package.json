@@ -2,7 +2,7 @@
   "name": "sbs-online-restapi",
   "version": "1.0.0",
   "description": "rest api crud using nodejs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/anuj9939/sbs-online-rest-api/issues"
   },
-  "homepage": "https://github.com/anuj9939/sbs-online-rest-api#readme"
+  "homepage": "https://github.com/anuj9939/sbs-online-rest-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
