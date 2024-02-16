@@ -4,7 +4,8 @@
   "description": "rest api crud using nodejs",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,9 @@
   },
   "homepage": "https://github.com/anuj9939/sbs-online-rest-api#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "mongodb": "4.1",
+    "mongoose": "^8.1.2"
   }
 }
