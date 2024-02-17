@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const app = express();
 const studentRoutes=require('./routes/student')
 const facultyRoutes=require('./routes/faculty')
+const bodyParser = require('body-parser')
 
 main().catch(err => console.log(err));
 checkDbEvent()
@@ -25,7 +26,7 @@ async function main() {
   mongoose.connection.on('close', () => console.log('close'));
 }
 
-
+app.use(bodyParser.json())
 app.use('/student',studentRoutes)
 app.use('/faculty',facultyRoutes)
 
