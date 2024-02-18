@@ -12,7 +12,7 @@ const StudentSchema = mongoose.Schema(
     },
 
     email: {
-      type: Number,
+      type: String,
       required: true,
       default: 0,
     },
